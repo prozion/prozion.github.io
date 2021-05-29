@@ -1,0 +1,103 @@
+html { font-size: 14px; }
+
+/* body { font-family: 'Noto Sans',sans-serif; font-size: 1.2rem; line-height: 1.7rem; background-color: #C4E0E6; background-image: linear-gradient(#C4E0E6 0%, #9EC8D0 50%, #C4E0E6 100%); margin:0; } */
+body { font-family: 'Noto Sans',sans-serif; font-size: 1rem; line-height: 1.8rem; margin:0; background-color: #333; background-attachment: fixed; background-position: center; }
+.container { width: 100%; align-self: center;}
+
+header { margin: 0; overflow: hidden; background-color: #18D3FB; color: white; text-align: left; display: flex; }
+/* header div.title { background: url("../img/r5_logo.png") no-repeat; background-size: auto 100%; display: block; vertical-align: middle; text-align: center; width: 100%; } */
+header div.title { background-size: auto 100%; display: block; vertical-align: middle; text-align: center; width: 100%; height: 1rem; }
+/* header div.title { background-image: url('../img/pulse.png'); background-size: 10% 6rem; } */
+header div.title img.logo { display: none; }
+
+h1 { font-size:150%; font-family: 'Noto Sans',sans-serif; font-weight: bold; display: block; color: black;  }
+
+a { text-decoration: none; color: #02449D; }
+a:visited { color: #8A238B; }
+a.contact { text-decoration: underline; color: white; }
+a.contact:visited { color: white; }
+
+/*
+#EAF4F6 - light grey blue,
+#C8D8DB- light grey blue darker,
+#009EBD - blue,
+#a00 - red,
+#114D59 - dark blue,
+#4996A6 - alt dark blue
+#052A32 - dark blue darker
+#333 - dark grey
+*/
+
+.card { background: white; padding: 0 0 2rem 0; margin: 50px auto 50px auto; width: 100%; box-shadow: 0px 5px 30px -5px #18D3FB; }
+.card h1 { line-height: 2.7rem; color: #052A32;}
+.card h2 { line-height: 2rem; color: #052A32;}
+.image { margin: 0; width: 100%; vertical-align: top; }
+.image img { width: 100%; border: solid #18D3FB; border-width: 0 0 1rem 0;  }
+.image h2 { font-style: italic; font-weight: normal; font-size: 100%; color: #052A32; }
+.container { width: 100%; }
+.info { margin: 0 1rem; display: inline-block; overflow: hidden; }
+.info ul { padding: 0 1.2rem;}
+.info ul li { margin: 2rem 0;}
+
+.profile_string { margin: 2rem 1rem; }
+project { display: block; font-weight: bold; }
+descr { display: block; }
+tech-stack { display: inline-block; font-family: monospace; background: #eee; padding: 0 0.4em; }
+year { display: block; font-weight: bold; color: #82b2bd; }
+
+footer { margin: 0 auto; }
+footer { padding: 0.5rem 0; text-align: center; font-size: 90%; background-color: #052A32; color: white; line-height: 1.2rem; }
+footer div.lines div { margin: 0.5rem 0rem; }
+footer hr { width: 20%; color: #f0eaea; border-width: 1px; border-style: solid; }
+footer a:visited { color: #EDF7F2; }
+
+
+.icon { display: inline-block; background-image: url('../img/sn_icons.png'); background-size: 545px 44px; height: 39px; width: 39px; cursor: pointer; }
+.vk { background-position: -2px -3px; }
+.fb { background-position: -45px -3px; }
+.insta { background-position: -88px -3px; }
+.twi { background-position: -131px -3px; }
+.telegram { background-position: -174px -3px; }
+.ok { background-position: -220px -3px; }
+.youtube { background-position: -253px -3px; }
+.strava { background-position: -309px -3px; }
+.website { background-position: -235px -3px; }
+
+/* SMALLER SCREENS */
+@media (max-width: 430px) {
+  h1 { font-size: 100%; margin: 0.35rem auto; }
+  footer { font-size: 1rem; line-height: 1.6rem; }
+}
+
+@media (max-width: 340px) {
+  header div.title { background-image: none; }
+  h1 { font-size: 150%; margin: auto; left: 0%; }
+}
+
+/* LARGER SCREENS */
+@media (min-width: 700px) {
+  header div.title img.logo { display: block; position: absolute; left: 1rem; top: 0.5rem; }
+  .image { display: inline-block; width: 250px; margin: 0 1rem 0 2rem; padding-top: 1.9rem; }
+  .image img { width: 250px; }
+  .container { width: 80%; margin: auto; }
+  .text { margin-top: 2rem; }
+  .info { width: calc(100% - 350px);}
+  .profile_string { margin: 1rem 0rem 2rem; }
+  h1 { margin: 0 }
+  h2 { margin: 0 }
+}
+
+@media (min-width: 950px) {
+  body { font-size: 1.0rem; line-height: 1.7rem; background-image: url('../img/space_bg.jpg'); background-repeat: no-repeat; }
+  header { padding: 0; }
+  h1 { font-size: 170%; }
+  h2 { font-size: 140%; }
+  a:hover { text-decoration: underline; }
+  footer { font-size: smaller; }
+}
+
+@media (min-width: 1400px) {
+  .container { width: 50%; }
+  header { padding: 0; }
+  footer { font-size: smaller; }
+}
