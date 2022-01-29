@@ -1,7 +1,9 @@
-===Some remarks on naming projects===
+# Things I would like to tell about [my github repo](https://github.com/prozion)
 
-* *_scheme - a project consist of ontology with in most part higher-level concepts
-* *_ontology - a project consist of ontology which contains higher-level concepts together with detailed fine-grained concepts
-* *_kb - a project with both ontology/scheme description and underlied data RDF graphs.
-* *_facts - a project with RDF knowledge graph that describes some facts on the given topic
-* *_files - just a collection of some files
+## Some remarks on naming projects
+
+- **[project-name]_scheme** - a project consist of ontology with in most part higher-level concepts
+- **[project-name]_ontology** - a project consist of ontology which contains higher-level concepts together with detailed fine-grained concepts
+- **[project-name]_kb** - a project with both ontology/scheme description and underlied data RDF graphs.
+- **[project-name]_facts**  - a project with RDF knowledge graph that describes some facts on the given topic
+- **[project-name]_files**  - just a collection of some files
