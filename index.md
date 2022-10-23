@@ -1,9 +1,7 @@
-# Things I would like to tell about [my github repo](https://github.com/prozion)
+# Обо мне
 
-## Some remarks on naming projects
+Привет! Меня зовут Денис и я люблю категоризировать и упорядочивать вещи, возможно с небольшой долей маниакальности. Для этого я пишу программки и скрипты, которые позволяют автоматизировать сбор знаний, а также работу над ними.
 
-- **[project-name]-scheme** - a project consist of ontology with in most part higher-level concepts
-- **[project-name]-ontology** - a project consist of ontology which contains higher-level concepts together with detailed fine-grained concepts
-- **[project-name]-kb** - a project with both ontology/scheme description and underlied data RDF graphs.
-- **[project-name]-facts**  - a project with RDF knowledge graph that describes some facts on the given topic
-- **[project-name]-files**  - just a collection of some files
+Здесь, на гитхабе, вы найдете некоторые из них.
+
+Также следует, наверное, упомянуть, что я использую мною же изобретенный и лелеемый формат [Tabtree](https://github.com/prozion/tabtree-clojure) для лаконичного кодирования графов знаний. В некоторых репозиториях на основе графов знаний собраны факты из разнообразнейших областей человеческого бытия, которыми я интересуюсь. Это системная биология и борьба со старением, история, computer science и др.
